@@ -1,6 +1,18 @@
 {
+  "name": "grow-a-garden-api",
+  "version": "1.0.0",
+  "description": "Grow A Garden API",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js",
+    "dev": "node Server.js"
+  },
   "dependencies": {
     "blessed": "^0.1.81",
+    "cors": "^2.8.5",
     "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
